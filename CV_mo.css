@@ -59,9 +59,11 @@
 
 #name {
      position: absolute;
-     top: 30px;
+     top: 25px;
      left: 260px;
      color: white;
+     font-size: 30px;
+     font-weight: normal;
      font-family: sans-serif;
 }
 
@@ -75,10 +77,16 @@
      color: white;
 }
 
+.sectionTitles{
+     font-weight: bold;
+     font-size: 18px;
+     padding-left: 30px;
+}
+
 #lineed {
      position: absolute;
      width: 2px;
-     height: 220px;
+     height: 190px;
      top: 347px;
      left: 74px;
      background-color: rgb(212, 212, 212);
@@ -114,7 +122,7 @@
 #lineexp {
      position: absolute;
      width: 2px;
-     height: 180px;
+     height: 210px;
      top: 1050px;
      left: 74px;
      background-color: rgb(212, 212, 212);
@@ -165,18 +173,24 @@
      color: black;
 }
 
+p{
+     margin: 15px;
+}
+
 img.idpic {
      width: 180px;
      height: 180px;
      border-radius: 50%;
 }
 
-i {
-     color: white;
+p.competence{
+     font-weight: bold;
 }
 
 li.competence {
      padding-bottom: 10px;
+     list-style: circle;
+     margin-left: 40px;
 }
 
 li span {
@@ -186,10 +200,13 @@ li span {
 
 ul.mainlist {
      list-style-image: url(bullet.png);
+     margin: 10px 80px;
 }
 
 ul.mainlist li li {
      list-style: circle;
+     margin-left: 40px;
+     margin-top: 5px;
 }
 
 a:link {
