@@ -1,0 +1,236 @@
+#headbg {
+     position: absolute;
+     width: 1100px;
+     height: 250px;
+     top: 20px;
+     left: 20px;
+     background: -webkit-linear-gradient(70deg, grey, black);
+     background: -moz-linear-gradient(70deg, grey, black);
+     background: -o-linear-gradient(70deg, grey, black);
+     background: linear-gradient(70deg, grey, black);
+     color: white;
+}
+
+/* #linkedinIcon {
+     position: absolute;
+     top: 230px;
+     left: 332px;
+}
+
+#githubIcon {
+     position: absolute;
+     top: 230px;
+     left: 423px;
+}
+
+#adressIcon {
+     position: absolute;
+     top: 194px;
+     left: 398px;
+}
+
+#phoneIcon {
+     position: absolute;
+     top: 194px;
+     left: 570px;
+}
+
+#emailIcon {
+     position: absolute;
+     top: 194px;
+     left: 825px;
+} */
+
+#location {
+     width: 140px;
+     float: left;
+     display: inline-block;
+     background: url(icons/location.png) right center no-repeat;
+}
+
+#phoneNumber {
+     width: 147px;
+     float: left;
+     display: inline-block;
+     padding-left: 10px;
+     background: url(icons/phone.png) right center no-repeat;
+}
+
+#email {
+     width: 215px;
+     float: left;
+     display: inline-block;
+     padding-left: 15px;
+     background: url(icons/email.png) right center no-repeat;
+}
+
+#linkedin {
+     width: 85px;
+     float: left;
+     display: inline-block;
+     background: url(icons/linkedIn.png) right center no-repeat;
+     -webkit-transition: font-size 0.3s ease;
+}
+
+#github {
+     width: 75px;
+     float: left;
+     display: inline-block;
+     padding-left: 15px;
+     background: url(icons/github.png) right center no-repeat;
+     -webkit-transition: font-size 0.3s ease;
+}
+
+#picture {
+     position: absolute;
+     top: 55px;
+     left: 50px;
+}
+
+#name {
+     position: absolute;
+     top: 30px;
+     left: 260px;
+     color: white;
+     font-family: sans-serif;
+}
+
+#intro {
+     position: absolute;
+     top: 70px;
+     left: 260px;
+     width: 840px;
+     font-family: sans-serif;
+     text-align: justify;
+     color: white;
+}
+
+#lineed {
+     position: absolute;
+     width: 2px;
+     height: 220px;
+     top: 347px;
+     left: 74px;
+     background-color: rgb(212, 212, 212);
+}
+
+#Education {
+     position: absolute;
+     top: 290px;
+     left: 7px;
+     width: 1000px;
+     font-family: sans-serif;
+     color: black
+}
+
+#lineproj {
+     position: absolute;
+     width: 2px;
+     height: 180px;
+     top: 680px;
+     left: 74px;
+     background-color: rgb(212, 212, 212);
+}
+
+#Projets {
+     position: absolute;
+     top: 620px;
+     left: 7px;
+     width: 1000px;
+     font-family: sans-serif;
+     color: black
+}
+
+#lineexp {
+     position: absolute;
+     width: 2px;
+     height: 180px;
+     top: 1050px;
+     left: 74px;
+     background-color: rgb(212, 212, 212);
+}
+
+#Exp {
+     position: absolute;
+     top: 990px;
+     left: 7px;
+     width: 1000px;
+     font-family: sans-serif;
+     color: black
+}
+
+#Competence {
+     position: absolute;
+     top: 1360px;
+     left: 7px;
+     width: 1000px;
+     font-family: sans-serif;
+     color: black;
+}
+
+#prog {
+     position: absolute;
+     top: inherit;
+     left: 40px;
+     width: 370px;
+     font-family: sans-serif;
+     color: black;
+}
+
+#langues {
+     position: absolute;
+     top: inherit;
+     left: 400px;
+     width: 370px;
+     font-family: sans-serif;
+     color: black;
+}
+
+#hobbies {
+     position: absolute;
+     top: inherit;
+     left: 800px;
+     width: 370px;
+     font-family: sans-serif;
+     color: black;
+}
+
+img.idpic {
+     width: 180px;
+     height: 180px;
+     border-radius: 50%;
+}
+
+i {
+     color: white;
+}
+
+li.competence {
+     padding-bottom: 10px;
+}
+
+li span {
+     position: relative;
+     left: 25px;
+}
+
+ul.mainlist {
+     list-style-image: url(bullet.png);
+}
+
+ul.mainlist li li {
+     list-style: circle;
+}
+
+a:link {
+     color: white;
+}
+
+a:visited {
+     color: purple;
+}
+
+a:hover {
+     color: cyan;
+     font-size: 18px;
+}
