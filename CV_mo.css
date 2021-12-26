@@ -101,16 +101,16 @@
      color: black
 }
 
-#lineproj {
+#lineexp {
      position: absolute;
      width: 2px;
-     height: 180px;
+     height: 210px;
      top: 680px;
      left: 74px;
      background-color: rgb(212, 212, 212);
 }
 
-#Projets {
+#Exp {
      position: absolute;
      top: 620px;
      left: 7px;
@@ -119,16 +119,16 @@
      color: black
 }
 
-#lineexp {
+#lineproj {
      position: absolute;
      width: 2px;
-     height: 210px;
+     height: 170px;
      top: 1050px;
      left: 74px;
      background-color: rgb(212, 212, 212);
 }
 
-#Exp {
+#Projets {
      position: absolute;
      top: 990px;
      left: 7px;
@@ -162,6 +162,10 @@
      width: 370px;
      font-family: sans-serif;
      color: black;
+}
+
+#langues li {
+     padding: 6px;
 }
 
 #hobbies {
@@ -201,6 +205,10 @@ li span {
 ul.mainlist {
      list-style-image: url(bullet.png);
      margin: 10px 80px;
+}
+
+.mainlist li span {
+     /* padding: 5px; */
 }
 
 ul.mainlist li li {
