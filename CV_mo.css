@@ -104,15 +104,15 @@
 #lineexp {
      position: absolute;
      width: 2px;
-     height: 210px;
-     top: 680px;
+     height: 325px;
+     top: 630px;
      left: 74px;
      background-color: rgb(212, 212, 212);
 }
 
 #Exp {
      position: absolute;
-     top: 620px;
+     top: 570px;
      left: 7px;
      width: 1000px;
      font-family: sans-serif;
@@ -122,15 +122,15 @@
 #lineproj {
      position: absolute;
      width: 2px;
-     height: 170px;
-     top: 1050px;
+     height: 180px;
+     top: 1170px;
      left: 74px;
      background-color: rgb(212, 212, 212);
 }
 
 #Projets {
      position: absolute;
-     top: 990px;
+     top: 1120px;
      left: 7px;
      width: 1000px;
      font-family: sans-serif;
@@ -139,7 +139,7 @@
 
 #Competence {
      position: absolute;
-     top: 1360px;
+     top: 1430px;
      left: 7px;
      width: 1000px;
      font-family: sans-serif;
@@ -207,14 +207,19 @@ ul.mainlist {
      margin: 10px 80px;
 }
 
-.mainlist li span {
-     /* padding: 5px; */
+.mainlist li {
+     padding-left: 20px;
+     padding-bottom: 15px;
 }
 
-ul.mainlist li li {
+.mainlist li li {
      list-style: circle;
-     margin-left: 40px;
-     margin-top: 5px;
+     margin-left: 60px;
+     padding-bottom: 0px;
+}
+
+.sublist{
+     padding-top: 7px;
 }
 
 a:link {
