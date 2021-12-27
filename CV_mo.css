@@ -63,8 +63,7 @@
      left: 260px;
      color: white;
      font-size: 30px;
-     font-weight: normal;
-     font-family: sans-serif;
+     font-family: "Helvetica", sans-serif;
 }
 
 #intro {
@@ -75,12 +74,6 @@
      font-family: sans-serif;
      text-align: justify;
      color: white;
-}
-
-.sectionTitles{
-     font-weight: bold;
-     font-size: 18px;
-     padding-left: 30px;
 }
 
 #lineed {
@@ -104,7 +97,7 @@
 #lineexp {
      position: absolute;
      width: 2px;
-     height: 325px;
+     height: 315px;
      top: 845px;
      left: 74px;
      background-color: rgb(212, 212, 212);
@@ -171,10 +164,14 @@
 #hobbies {
      position: absolute;
      top: inherit;
-     left: 800px;
+     left: 740px;
      width: 370px;
      font-family: sans-serif;
      color: black;
+}
+
+#hobbies span {
+     padding: 30px;
 }
 
 p{
@@ -187,19 +184,30 @@ img.idpic {
      border-radius: 50%;
 }
 
+.sectionTitles{
+     font-weight: bold;
+     font-size: 18px;
+     font-family: monospace;
+     padding-left: 30px;
+     color: rgb(94, 94, 94);
+}
+
+.subTitle{
+     font-weight: 550;
+}
+
+.sublist span {
+     font-style: oblique;
+}
+
 p.competence{
      font-weight: bold;
 }
 
 li.competence {
-     padding-bottom: 10px;
      list-style: circle;
+     padding-bottom: 10px;
      margin-left: 40px;
-}
-
-li span {
-     position: relative;
-     left: 25px;
 }
 
 ul.mainlist {
@@ -214,8 +222,8 @@ ul.mainlist {
 
 .mainlist li li {
      list-style: circle;
-     margin-left: 60px;
-     padding-bottom: 0px;
+     margin-left: 40px;
+     padding: 0px 5px;
 }
 
 .sublist{
