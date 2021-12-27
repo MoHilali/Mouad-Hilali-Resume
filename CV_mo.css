@@ -86,7 +86,7 @@
 #lineed {
      position: absolute;
      width: 2px;
-     height: 190px;
+     height: 360px;
      top: 347px;
      left: 74px;
      background-color: rgb(212, 212, 212);
@@ -105,14 +105,14 @@
      position: absolute;
      width: 2px;
      height: 325px;
-     top: 630px;
+     top: 845px;
      left: 74px;
      background-color: rgb(212, 212, 212);
 }
 
 #Exp {
      position: absolute;
-     top: 570px;
+     top: 790px;
      left: 7px;
      width: 1000px;
      font-family: sans-serif;
@@ -122,15 +122,15 @@
 #lineproj {
      position: absolute;
      width: 2px;
-     height: 180px;
-     top: 1170px;
+     height: 370px;
+     top: 1390px;
      left: 74px;
      background-color: rgb(212, 212, 212);
 }
 
 #Projets {
      position: absolute;
-     top: 1120px;
+     top: 1340px;
      left: 7px;
      width: 1000px;
      font-family: sans-serif;
@@ -139,7 +139,7 @@
 
 #Competence {
      position: absolute;
-     top: 1430px;
+     top: 1850px;
      left: 7px;
      width: 1000px;
      font-family: sans-serif;
@@ -165,7 +165,7 @@
 }
 
 #langues li {
-     padding: 6px;
+     padding: 10px;
 }
 
 #hobbies {
