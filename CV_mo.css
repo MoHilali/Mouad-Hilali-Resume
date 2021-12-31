@@ -1,14 +1,39 @@
+#intro {
+     position: relative;
+     margin: 10px 25px;
+     width: 1020px;
+     height: 270px;
+     font-family: sans-serif;
+     text-align: justify;
+     color: white;
+}
+
 #headbg {
      position: absolute;
-     width: 1100px;
+     width: inherit;
      height: 250px;
-     top: 20px;
-     left: 20px;
      background: -webkit-linear-gradient(70deg, grey, black);
      background: -moz-linear-gradient(70deg, grey, black);
      background: -o-linear-gradient(70deg, grey, black);
      background: linear-gradient(70deg, grey, black);
+}
+
+#picture {
+     position: absolute;
+     top: 35px;
+     left: 30px;
+}
+
+#name {
      color: white;
+     font-size: 30px;
+     font-family: "Helvetica", sans-serif;
+}
+
+#info{
+     position: absolute;
+     left: 230px;
+     top:10px;
 }
 
 #location {
@@ -27,19 +52,26 @@
 }
 
 #email {
-     width: 215px;
+     width: 72px;
      float: left;
      display: inline-block;
      padding-left: 15px;
      background: url(icons/email.png) right center no-repeat;
+     transition: font-size 0.2s ease;
+     -webkit-transition: font-size 0.2s ease;
+     -moz-transition: font-size 0.2s ease;
+     -o-transition: font-size 0.2s ease;
 }
 
 #linkedin {
-     width: 85px;
+     width: 90px;
      float: left;
      display: inline-block;
      background: url(icons/linkedIn.png) right center no-repeat;
-     -webkit-transition: font-size 0.3s ease;
+     transition: font-size 0.2s ease;
+     -webkit-transition: font-size 0.2s ease;
+     -moz-transition: font-size 0.2s ease;
+     -o-transition: font-size 0.2s ease;
 }
 
 #github {
@@ -48,46 +80,24 @@
      display: inline-block;
      padding-left: 15px;
      background: url(icons/github.png) right center no-repeat;
-     -webkit-transition: font-size 0.3s ease;
-}
-
-#picture {
-     position: absolute;
-     top: 55px;
-     left: 50px;
-}
-
-#name {
-     position: absolute;
-     top: 25px;
-     left: 260px;
-     color: white;
-     font-size: 30px;
-     font-family: "Helvetica", sans-serif;
-}
-
-#intro {
-     position: absolute;
-     top: 70px;
-     left: 260px;
-     width: 840px;
-     font-family: sans-serif;
-     text-align: justify;
-     color: white;
+     transition: font-size 0.2s ease;
+     -moz-transition: font-size 0.2s ease;
+     -o-transition: font-size 0.2s ease;
+     -webkit-transition: font-size 0.2s ease;
 }
 
 #lineed {
      position: absolute;
      width: 2px;
      height: 360px;
-     top: 347px;
-     left: 74px;
+     top: 40px;
+     left: 67px;
      background-color: rgb(212, 212, 212);
 }
 
 #Education {
-     position: absolute;
-     top: 290px;
+     position: relative;
+     margin-bottom: 20px;
      left: 7px;
      width: 1000px;
      font-family: sans-serif;
@@ -98,14 +108,14 @@
      position: absolute;
      width: 2px;
      height: 315px;
-     top: 845px;
-     left: 74px;
+     top: 40px;
+     left: 67px;
      background-color: rgb(212, 212, 212);
 }
 
 #Exp {
-     position: absolute;
-     top: 790px;
+     position: relative;
+     margin-bottom: 20px;
      left: 7px;
      width: 1000px;
      font-family: sans-serif;
@@ -115,24 +125,23 @@
 #lineproj {
      position: absolute;
      width: 2px;
-     height: 370px;
-     top: 1390px;
-     left: 74px;
+     height: 365px;
+     top: 40px;
+     left: 67px;
      background-color: rgb(212, 212, 212);
 }
 
 #Projets {
-     position: absolute;
-     top: 1340px;
+     position: relative;
+     margin-bottom: 20px;
      left: 7px;
-     width: 1000px;
+     width: 1020px;
      font-family: sans-serif;
      color: black
 }
 
 #Competence {
-     position: absolute;
-     top: 1850px;
+     position: relative;
      left: 7px;
      width: 1000px;
      font-family: sans-serif;
@@ -174,7 +183,7 @@
      padding: 30px;
 }
 
-p{
+p {
      margin: 15px;
 }
 
@@ -184,7 +193,7 @@ img.idpic {
      border-radius: 50%;
 }
 
-.sectionTitles{
+.sectionTitles {
      font-weight: bold;
      font-size: 18px;
      font-family: monospace;
@@ -192,7 +201,7 @@ img.idpic {
      color: rgb(94, 94, 94);
 }
 
-.subTitle{
+.subTitle {
      font-weight: 550;
 }
 
@@ -200,7 +209,7 @@ img.idpic {
      font-style: oblique;
 }
 
-p.competence{
+p.competence {
      font-weight: bold;
 }
 
@@ -226,7 +235,7 @@ ul.mainlist {
      padding: 0px 5px;
 }
 
-.sublist{
+.sublist {
      padding-top: 7px;
 }
 
@@ -239,6 +248,6 @@ a:visited {
 }
 
 a:hover {
-     color: cyan;
+     color: rgb(104, 214, 165);
      font-size: 18px;
 }
